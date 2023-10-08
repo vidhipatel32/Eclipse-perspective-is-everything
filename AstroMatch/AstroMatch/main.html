@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroMatch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AstroMatch</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="grid" id="grid"></div>
+            <div class="col">
+                <div class="rowab">
+                  <div id="score">Score: 0</div>
+                    <br>
+                    <div id="moves"></div>
+                    <br>
+                  <button id="startButton">Play</button>
+                  <button id="resetButton">Reset Game</button>
+                    <div id="question" class="question"></div>
+                    
+                    
+                </div>
+                <br>
+                <br>
+                <div class="rowab abc">
+                    <form>
+                        <label>Does a solar eclipse occur when the moon blocks the sun?</label>
+                        <br>
+                        <input type="radio" name="option" id="yes">Yes
+                        <input type="radio" name="option" id="No">No
+                        <br>
+                        <br>
+                        <label>Do solar eclipse occur during the day?</label>
+                        <br>
+                        <input type="radio" name="option1" id="yes">Yes
+                        <input type="radio" name="option1" id="No">No
+                        <br>
+                        <br>
+                        <label>Is solar eclipse visible from the entire earth?</label>
+                        <br>
+                        <input type="radio" name="option2" id="yes">Yes
+                        <input type="radio" name="option2" id="No">No
+                        <br>
+                        
+                        <input type="submit">
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
